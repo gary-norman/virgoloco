@@ -89,25 +89,30 @@ body {
   grid-column-end:   4; */
 } 
 #info {
-  font-size: 5vw;
+  font-size: 7vw;
   background-color: rgba(16, 48, 58, 0.445);
+  background-image: url(assets/circle-info-solid.svg);
+  background-position: center;
+  background-size: 2.5vw;
+  background-repeat: no-repeat;
+  color: #59b5bf;
   /* align-self: center;
   align-items: center; */
   text-align: center;
   position: fixed;
   bottom: 20px;
   left: 0;
-  width: 10%;
-  height: 15%;
+  width: 4vw;
+  height: 4vw;
   margin-left: 10px;
   border-radius: 15px;
   border: 2px solid #59b5bf;
   filter: drop-shadow(.1rem .1rem .2rem rgb(12, 42, 44));
-  padding: 10px;
+  padding: 0px;
 }
 
 
-#info:after{
+/* #info:after{
   content:'i';
 }
 #info:hover:after{
@@ -120,14 +125,14 @@ body {
   background-color: rgba(16, 48, 58, 0.8);
   width: 60%;
   height: 60%;
-}
-#infoText div {
+} */
+#infoText {
   position: fixed;
-  left: 20px;
-  top: 20px;
-  z-index: 1;
-  width: 96%;
-  height: 95%;
+  bottom: 40px;
+  left: 40px;
+  z-index: -1;
+  width: 0%;
+  height: 0%;
   font-size: 1.5em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
@@ -135,7 +140,7 @@ body {
   border-radius: 15px;
   border: 2px solid #59b5bf;
   filter: drop-shadow(.1rem .1rem .2rem rgb(12, 42, 44));
-  padding: 10px;
+  padding: 0px;
   overflow: scroll;
 }
 #infoText div h1, h2 {
@@ -144,11 +149,22 @@ body {
 #infoText p {
   padding: 10px 200px;
 }
-#infoText p#close {
-  position: absolute;
+.closetop {
+  position: sticky;
   top: 10px;
+  left: 20px;
+  text-align: left;
+}
+#infoText button.closeTop {
+  width: 20px;
+  padding: 0px 0px;
+  margin: 0px 20px;
+}
+#infoText button.closeBot {
+  position: sticky;
+  bottom: 10px;
   right: 20px;
-  width: 10px;
+  width: 20px;
   padding: 0px 0px;
 }
 a {
