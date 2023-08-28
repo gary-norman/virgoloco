@@ -91,11 +91,12 @@ body {
 #info {
   font-size: 7vw;
   background-color: rgba(16, 48, 58, 0.445);
-  background-image: url(assets/circle-info-solid.svg);
+  background-image: url(assets/circle-info-solid-blue.svg);
   background-position: center;
   background-size: 2.5vw;
   background-repeat: no-repeat;
   color: #59b5bf;
+
   /* align-self: center;
   align-items: center; */
   text-align: center;
@@ -106,9 +107,22 @@ body {
   height: 4vw;
   margin-left: 10px;
   border-radius: 15px;
-  border: 2px solid #59b5bf;
+  /* border: 2px solid #59b5bf; */
   filter: drop-shadow(.1rem .1rem .2rem rgb(12, 42, 44));
   padding: 0px;
+  animation: infoSwell 2s infinite;
+  animation-timing-function: cubic-bezier(0, 0.8, 0.5, 1);
+  animation-direction: alternate;
+}
+@keyframes infoSwell {
+  from {border: 2px solid #59b5bf;}
+  to {border: 2px solid #fff;}
+}
+
+#info:hover {
+  cursor: pointer;
+  border: 2px solid #fff;
+  background-image: url(assets/circle-info-solid-white.svg);
 }
 
 
@@ -155,17 +169,17 @@ body {
   left: 20px;
   text-align: left;
 }
-#infoText button.closeTop {
-  width: 20px;
+button {
+  width: 2vw;
+  background-color: #59b5bf;
+  border: 2px solid rgba(58, 16, 51, 0.445);
+  border-radius: 5px;
   padding: 0px 0px;
   margin: 0px 20px;
 }
-#infoText button.closeBot {
-  position: sticky;
-  bottom: 10px;
-  right: 20px;
-  width: 20px;
-  padding: 0px 0px;
+button:hover {
+  background-color: rgb(145, 32, 32);
+  border-radius: 5px;
 }
 a {
     font-size: 2vw;
