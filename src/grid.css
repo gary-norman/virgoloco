@@ -14,9 +14,15 @@ body {
 }
 @media only screen and (max-width: 600px) {
   body {
-    background-image: url(still_mobile.jpg);
+    background-image: url(still_mobile2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    resize: both;
+    overflow: hidden;
   }
 }
+
 #virgoloco {
   background-image: url(virgoloco_logo4.png);
   height: 10vw;
@@ -42,7 +48,7 @@ body {
   align-self: self-start;
   font-size: 4.5vw;
 }
-[id*="djs-"] {
+#djs {
   font-size: 5vw;
   align-self: self-end;
 }
@@ -53,7 +59,7 @@ body {
   width: 54vw;
   background-size: cover;
   background-position: center;
-  align-self: self-start;
+  align-self: self-end;
   /* animation: spread 5s infinite;
   animation-timing-function: ease-in-out;
   animation-direction: alternate; */
@@ -114,12 +120,12 @@ body {
   filter: drop-shadow(.1rem .1rem .2rem rgb(12, 42, 44));
   padding: 0px;
   animation: infoSwell 2s infinite;
-  animation-timing-function: cubic-bezier(0, 0.8, 0.5, 1);
+  animation-timing-function: ease-in-out;
   animation-direction: alternate;
 }
 @keyframes infoSwell {
   from {border: 2px solid #59b5bf;}
-  to {border: 2px solid #fff;}
+  to {border: 2px solid #ff0000;}
 }
 
 #info:hover {
@@ -200,13 +206,12 @@ a {
 
 .container {
     display: grid;
-    grid-template-rows: 1fr 3fr 2fr 5fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 5fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 2fr 10fr 2fr;
     width: 100vw;
     height: 100vh;
     justify-items: center;
     align-items: center;
-    
 
   }
 .container > div {
