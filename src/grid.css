@@ -70,8 +70,8 @@ body {
   /* position: fixed;
   bottom: 6vw;
   right: 3vw; */
-  /* width: 35%;
-  height: 25vw; */
+  width: 75%;
+  height: 26vw;
   animation: mapGrow 1.5s 1;
   border: 0;
   border-color:  #2b5252;
@@ -80,16 +80,16 @@ body {
   border: 2px solid #59b5bf;
   filter: drop-shadow(.1rem .1rem .2rem rgb(12, 42, 44));
 }
-#map:hover {
-  /* position:fixed; 
+/* #map:hover {
+  position:fixed; 
   bottom: 20px;
-  right: 0; */
-  /* animation: mapGrow 0.5s 1; */
+  right: 0;
+  animation: mapGrow 0.5s 1;
 } 
 @keyframes mapGrow {
   from {width: 35%; height: 25vw;}
   to {width: 85%; height: 25vw;}
-}
+} */
 #info {
   font-size: 7vw;
   background-color: rgba(16, 48, 58, 0.445);
