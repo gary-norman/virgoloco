@@ -12,7 +12,11 @@ body {
     resize: both;
     overflow: hidden;
 }
-
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url(still_mobile.jpg);
+  }
+}
 #virgoloco {
   background-image: url(virgoloco_logo4.png);
   height: 10vw;
@@ -66,8 +70,9 @@ body {
   /* position: fixed;
   bottom: 6vw;
   right: 3vw; */
-  width: 35%;
-  height: 35%;
+  /* width: 35%;
+  height: 25vw; */
+  animation: mapGrow 1.5s 1;
   border: 0;
   border-color:  #2b5252;
   margin-right: 10px;
@@ -79,13 +84,11 @@ body {
   /* position:fixed; 
   bottom: 20px;
   right: 0; */
-  width: 60%;
-  height: 60%;
-  animation: mapGrow 0.5s 1;
+  /* animation: mapGrow 0.5s 1; */
 } 
 @keyframes mapGrow {
-  from {width: 10%; height: 15%;}
-  to {width: 60%; height: 60%;}
+  from {width: 35%; height: 25vw;}
+  to {width: 85%; height: 25vw;}
 }
 #info {
   font-size: 7vw;
