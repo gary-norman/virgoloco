@@ -5,7 +5,7 @@ html {
     text-shadow: 1px 1px 1px #2b5252;
   }
 body {
-    background-image: url(assets/still.jpg);
+    background-image: url(still.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom right; 
@@ -13,7 +13,7 @@ body {
     overflow: hidden;
 }
 #virgoloco {
-  background-image: url(assets/virgoloco_logo4.png);
+  background-image: url(virgoloco_logo4.png);
   height: 10vw;
   width: 80vw;
   background-size: cover;
@@ -42,7 +42,7 @@ body {
 }
 
 #location {
-  background-image: url(assets/sloterpark.png);
+  background-image: url(sloterpark.png);
   height: 7vw;
   width: 54vw;
   background-size: cover;
@@ -88,7 +88,7 @@ body {
 #info {
   font-size: 7vw;
   background-color: rgba(16, 48, 58, 0.445);
-  background-image: url(assets/circle-info-solid-blue.svg);
+  background-image: url(circle-info-solid-blue.svg);
   background-position: center;
   background-size: 2.5vw;
   background-repeat: no-repeat;
@@ -118,7 +118,7 @@ body {
 #info:hover {
   cursor: pointer;
   border: 2px solid #fff;
-  background-image: url(assets/circle-info-solid-white.svg);
+  background-image: url(circle-info-solid-white.svg);
 }
 
 
