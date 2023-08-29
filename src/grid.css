@@ -146,7 +146,7 @@ body {
   z-index: -1;
   width: 0%;
   height: 0%;
-  font-size: 2vw;
+  font-size: large;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   background-color: rgba(16, 48, 58, 0.8);
@@ -182,7 +182,6 @@ button:hover {
   cursor: pointer;
 }
 a {
-    font-size: 2vw;
     text-decoration: none!important;
     color: #59b5bf!important;
 }
