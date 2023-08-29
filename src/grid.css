@@ -90,7 +90,7 @@ body {
   background-color: rgba(16, 48, 58, 0.445);
   background-image: url(circle-info-solid-blue.svg);
   background-position: center;
-  background-size: 2.5vw;
+  background-size: 75%;
   background-repeat: no-repeat;
   color: #59b5bf;
   /* align-self: center;
