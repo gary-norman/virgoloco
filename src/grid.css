@@ -182,20 +182,20 @@ body {
   z-index: 10;
   width: 100%;
   padding-bottom: 15px;
+  position: fixed;
+  animation: arrow 2s infinite;
+  animation-timing-function: cubic-bezier(1, 0.165, 0.82, 0.075);
+  animation-direction: alternate-reverse;
 }
 
 .arrow {
   width:5vw;
   border-width:0px;
   border:0px;
-  position: fixed;
-  animation: arrow 2s infinite;
-  animation-timing-function: cubic-bezier(1, 0.165, 0.82, 0.075);
-  animation-direction: alternate-reverse;
 }
 @keyframes arrow {
   from {bottom: 75px;}
-  to {bottom: 10px;}
+  to {bottom: -10px;}
 }
 .closetop {
   position: sticky;

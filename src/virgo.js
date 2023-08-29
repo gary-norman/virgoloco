@@ -17,12 +17,3 @@ function infoSlideClose() {
     document.getElementById('infoText').style.margin = "0px 10px";
     document.getElementById('infoText').style.border = "0px";
 };
-
-$(window).scroll(function() {
-    if ($(this).scrollTop()> 20) {
-        $('.arrow').fadeOut();
-     }
-    else {
-      $('.arrow').fadeIn();
-     }
- });
