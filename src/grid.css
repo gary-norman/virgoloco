@@ -8,7 +8,7 @@ body {
     background-image: url(still.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: centerf; 
+    background-position: center; 
     resize: both;
     overflow: hidden;
 }
