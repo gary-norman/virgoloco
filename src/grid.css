@@ -25,13 +25,14 @@ body {
 
 #virgoloco {
   background-image: url(virgoloco_logo4.png);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px) brightness(85%);
   height: 10vw;
   width: 80vw;
   background-size: cover;
   background-position: center;
   align-self: self-end;
   margin: 50px 0px 5px 0px;
+  filter: drop-shadow(.05rem .05rem .2rem rgb(12, 42, 44));
   /* animation: swell 1s infinite;
   animation-timing-function: ease;
   animation-direction: alternate; */
@@ -58,9 +59,10 @@ body {
 
 #location {
   background-image: url(sloterpark.png);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(30px);
+  filter: drop-shadow(.05rem .05rem .2rem rgb(12, 42, 44));
   height: 7vw;
-  width: 54vw;
+  width: 65vw;
   background-size: cover;
   background-position: center;
   align-self: self-end;
