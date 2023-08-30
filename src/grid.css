@@ -25,6 +25,7 @@ body {
 
 #virgoloco {
   background-image: url(virgoloco_logo4.png);
+  backdrop-filter: blur(10px);
   height: 10vw;
   width: 80vw;
   background-size: cover;
@@ -47,6 +48,7 @@ body {
 #date {
   align-self: self-start;
   font-size: 4.5vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #djs {
   font-size: 5vw;
@@ -56,6 +58,7 @@ body {
 
 #location {
   background-image: url(sloterpark.png);
+  backdrop-filter: blur(10px);
   height: 7vw;
   width: 54vw;
   background-size: cover;
