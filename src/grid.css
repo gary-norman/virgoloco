@@ -203,6 +203,16 @@ body {
   from {bottom: 15px; opacity: 0;}
   to {bottom: 0px; opacity: 1;}
 }
+.fadedArrow {
+  width:5vw;
+  position: relative;
+  animation: fadedArrow 2s;
+  animation-timing-function: ease;
+}
+@keyframes fadedArrow {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
 .closetop {
   position: sticky;
   top: 10px;

@@ -17,3 +17,6 @@ function infoSlideClose() {
     document.getElementById('infoText').style.margin = "0px 10px";
     document.getElementById('infoText').style.border = "0px";
 };
+document.getElementById('infoText').onscroll = (event) => {
+    document.getElementById('scrollArrow').className = 'fadedArrow';
+}
