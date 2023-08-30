@@ -61,8 +61,8 @@ body {
   background-image: url(sloterpark.png);
   backdrop-filter: blur(30px);
   filter: drop-shadow(.05rem .05rem .2rem rgb(12, 42, 44));
-  height: 7vw;
-  width: 65vw;
+  height: 6vw;
+  width: 55vw;
   background-size: cover;
   background-position: center;
   align-self: self-end;
